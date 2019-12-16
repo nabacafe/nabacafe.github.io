@@ -11,8 +11,13 @@ body {
 	font-size: 16px;
 }
 
+.logo img {
+    padding: 36px;
+    max-width: 100px;
+}
+
 .banner {
-	margin-top: 25%;
+	margin-top: 5%;
 	background-color:#0d4a27;
 	padding: 15%;
 	border-radius: 40% 27% 74% 28% / 40% 43% 47% 52%;
@@ -36,6 +41,7 @@ p {
 
 footer {
 	padding-top: 10%;
+	padding-bottom: 36px;
 }
 
 span {
@@ -47,6 +53,6 @@ span {
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
   body {
-    max-width: 80%;
+    max-width: 90%;
   }
 }

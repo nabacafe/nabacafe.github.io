@@ -14,7 +14,7 @@ body {
 .banner {
 	margin-top: 25%;
 	background-color:#0d4a27;
-	padding:80px 15%;
+	padding: 15%;
 	border-radius: 40% 27% 74% 28% / 40% 43% 47% 52%;
 	transition: border-width 2s linear;
 
@@ -42,4 +42,11 @@ span {
 	color: #996633;
 	font-size: 12px;
 	font-weight: bold;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  body {
+    max-width: 80%;
+  }
 }
